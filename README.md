@@ -15,6 +15,12 @@ Basically, one script will analyze the complete table (row per row) searching fo
 
 The start point
 ```
+# mkdir script
+# cd script
+# wget https://raw.githubusercontent.com/waldirio/repair_corrupted_pg_tables/master/check_pg.sh
+# wget https://raw.githubusercontent.com/waldirio/repair_corrupted_pg_tables/master/cleanup_pg.sh
+# chmod +x check_pg.sh
+# chmod +x cleanup_pg.sh
 # ./check_pg.sh 
 Please provide the table name
 exiting .....
