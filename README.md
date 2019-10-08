@@ -61,4 +61,14 @@ rhnschema=# select * from rhnpackagerepodata;
 rhnschema=#
 ```
 
+After that, I REALLY RECOMMEND you to run vacuum manually.
+```
+# su - postgres
+$ psql rhnschema
+rhnschema=# VACUUM FULL VERBOSE ANALYZE;
+```
+Your control files will be shrinked and everything will be great (at least, will not be failing).
+
+Again, snapshot or valid backup is the best way EVER to fix DB data issues.
+
 Enjoy it.
