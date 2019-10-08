@@ -33,6 +33,7 @@ The script will be executed, if the table is ok, nothing will appear, if somethi
 Number of rows: 211013
 ...
 ERROR:  missing chunk number 0 for toast value 279570 in pg_toast_38779
+112304,rhnpackagerepodata
 ...
 #
 ```
